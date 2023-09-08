@@ -1,8 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
-import TodoList from './views/TodoList'
-
+import TodoList from "./views/ToDoList"
 const App: React.FC = () => {
-
   return (
     <div>
       <Routes>
@@ -11,5 +9,6 @@ const App: React.FC = () => {
     </div>
   )
 }
+
 
 export default App
